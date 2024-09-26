@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Lucas Burna's portfolio"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,19 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Lucas Burna"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+  # es:
+  #   languageCode: es
+  #   languageName: Spanish
+  #   title: "Lucas Burna"
+  #   weight: 2
+  # fr:
+  #   languageCode: fr
+  #   languageName: French
+  #   title: "Lucas Burna"
+  #   weight: 3
+    
 # default language for the content
 defaultContentLanguage: en
 
@@ -58,23 +64,23 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/dark_theme_background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/logo.png
+    inverted: /images/site/favicon_brain.png
+    favicon: /images/site/logo.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/burna680/portfolio
   # Default branch of your Git repo
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Configure various features of this theme
   features:
@@ -98,7 +104,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
@@ -115,7 +121,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -153,7 +159,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
@@ -186,7 +192,7 @@ params:
 
     # specify whether you want to show Table of Contents in reading page
     toc:
-      enable: true
+      enable: false
 
     # Show tags under the post title
     tags:
@@ -304,4 +310,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

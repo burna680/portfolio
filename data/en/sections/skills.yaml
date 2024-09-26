@@ -1,4 +1,101 @@
-# section information
+# # section information
+# section:
+#   name: Skills
+#   id: skills
+#   enable: true
+#   weight: 2
+#   showOnNavbar: true
+#   filter: true
+#   # Can optionally hide the title in sections
+#   # hideTitle: true
+
+# # filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Basic
+#   filter: "basic"
+# - name: Language
+#   filter: "language"
+# - name: Container
+#   filter: "container"
+# - name: Others
+#   filter: "others"
+
+# # Your Skills.
+# # Give a summary of you each skill in the summary section.
+# skills:
+# - name: TensorFlow
+#   logo: /images/sections/skills/TensorFlow.png
+#   summary: "Extensive experience in building, training, and optimizing deep learning models using TensorFlow."
+#   categories: ["machine-learning", "framework"]
+#   url: "https://www.tensorflow.org/"
+
+# - name: Python
+#   logo: /images/sections/skills/python.png
+#   summary: "Proficient in Python programming for a variety of applications, including machine learning and data analysis."
+#   categories: ["language"]
+#   url: "https://www.python.org/"
+
+# - name: Pandas
+#   logo: /images/sections/skills/pandas.png
+#   summary: "Experienced in data manipulation and analysis using the pandas library for structured data."
+#   categories: ["data-analysis"]
+#   url: "https://pandas.pydata.org/"
+
+# - name: scikit-learn
+#   logo: /images/sections/skills/scikit-learn.png
+#   summary: "Skilled in building and evaluating machine learning models using scikit-learn."
+#   categories: ["machine-learning", "framework"]
+#   url: "https://scikit-learn.org/"
+
+# - name: Keras
+#   logo: /images/sections/skills/keras.png
+#   summary: "Experienced in developing deep learning models using Keras for efficient experimentation and prototyping."
+#   categories: ["machine-learning", "framework"]
+#   url: "https://keras.io/"
+
+# - name: FastAPI
+#   logo: /images/sections/skills/FastAPI.png
+#   summary: "Experienced in building high-performance APIs using FastAPI for web applications and microservices."
+#   categories: ["framework", "api"]
+#   url: "https://fastapi.tiangolo.com/"
+
+# - name: Docker
+#   logo: /images/sections/skills/docker.svg
+#   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+#   categories: ["container"]
+#   url: "https://www.docker.com/"
+
+# - name: Linux
+#   logo: /images/sections/skills/linux.png
+#   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+#   categories: ["others"]
+
+# - name: Git
+#   logo: /images/sections/skills/git.png
+#   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+#   categories: ["basic"]
+#   url: "https://git-scm.com/"
+
+# - name: C++
+#   logo: /images/sections/skills/c++.png
+#   summary: "Intermediate knowledge in C/C++ programming. Used for object detection and problem solving."
+#   categories: ["computer vision", "language"]
+
+# - name: MLFlow
+#   logo: /images/sections/skills/mlflow.png
+#   summary: "Skilled in managing and tracking machine learning experiments using MLFlow."
+#   categories: ["machine-learning", "mlops"]
+#   url: "https://mlflow.org/"
+
+# - name: Streamlit
+#   logo: /images/sections/skills/streamlit.png
+#   summary: "Experienced in building interactive web applications for data visualization and machine learning models using Streamlit."
+#   categories: ["framework", "web-app"]
+#   url: "https://streamlit.io/"
+
+# Section information
 section:
   name: Skills
   id: skills
@@ -9,7 +106,7 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# filter buttons
+# Filter buttons
 buttons:
 - name: All
   filter: "all"
@@ -19,28 +116,56 @@ buttons:
   filter: "language"
 - name: Container
   filter: "container"
+- name: Framework
+  filter: "framework"
+- name: API
+  filter: "api"
+- name: Web App
+  filter: "web-app"
+- name: Machine Learning
+  filter: "machine-learning"
+- name: Data Analysis
+  filter: "data-analysis"
 - name: Others
   filter: "others"
 
 # Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: TensorFlow
+  logo: /images/sections/skills/TensorFlow.png
+  summary: "Extensive experience in building, training, and optimizing deep learning models using TensorFlow."
+  categories: ["machine-learning", "framework"]
+  url: "https://www.tensorflow.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Proficient in Python programming for a variety of applications, including machine learning and data analysis."
+  categories: ["language"]
+  url: "https://www.python.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: Pandas
+  logo: /images/sections/skills/pandas.png
+  summary: "Experienced in data manipulation and analysis using the pandas library for structured data."
+  categories: ["data-analysis"]
+  url: "https://pandas.pydata.org/"
+
+- name: scikit-learn
+  logo: /images/sections/skills/scikit-learn.png
+  summary: "Skilled in building and evaluating machine learning models using scikit-learn."
+  categories: ["machine-learning", "framework"]
+  url: "https://scikit-learn.org/"
+
+- name: Keras
+  logo: /images/sections/skills/keras.png
+  summary: "Experienced in developing deep learning models using Keras for efficient experimentation and prototyping."
+  categories: ["machine-learning", "framework"]
+  url: "https://keras.io/"
+
+- name: FastAPI
+  logo: /images/sections/skills/FastAPI.png
+  summary: "Experienced in building high-performance APIs using FastAPI for web applications and microservices."
+  categories: ["framework", "api"]
+  url: "https://fastapi.tiangolo.com/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
@@ -48,16 +173,10 @@ skills:
   categories: ["container"]
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
-
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  categories: ["basic","others"]
 
 - name: Git
   logo: /images/sections/skills/git.png
@@ -67,5 +186,17 @@ skills:
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  summary: "Intermediate knowledge in C/C++ programming. Used for object detection and problem solving."
+  categories: ["language"]
+
+- name: MLFlow
+  logo: /images/sections/skills/mlflow.png
+  summary: "Skilled in managing and tracking machine learning experiments using MLFlow."
+  categories: ["machine-learning", "mlops"]
+  url: "https://mlflow.org/"
+
+- name: Streamlit
+  logo: /images/sections/skills/streamlit.png
+  summary: "Experienced in building interactive web applications for data visualization and machine learning models using Streamlit."
+  categories: ["framework", "web-app"]
+  url: "https://streamlit.io/"
