@@ -11,6 +11,14 @@ section:
 
 # Your accomplishments
 accomplishments:
+- name: AWS Educate Introduction to Cloud 101
+  timeline: "Nov 2024"
+  organization:
+    name: AWS
+    url: https://awseducate.instructure.com/
+  courseOverview: Introduction to Cloud
+  certificateURL: "https://www.credly.com/badges/4459c260-9deb-4d79-9d68-304ab51f04ba/public_url"
+
 - name: AI Agents in LangGraph
   timeline: "Aug 2024"
   organization:
