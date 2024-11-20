@@ -11,6 +11,14 @@ section:
 
 # Your accomplishments
 accomplishments:
+- name: Effective MLOps - Model Development
+  timeline: "Nov 2024"
+  organization:
+    name: Weights & Biases
+    url: https://wandb.ai/site/
+  courseOverview: Principled Machine Learning workflows for model development
+  certificateURL: "https://www.credential.net/75adf12e-53fc-4f81-8efb-43e4dd3436c3#gs.hx068h"
+
 - name: AWS Educate Introduction to Cloud 101
   timeline: "Nov 2024"
   organization:

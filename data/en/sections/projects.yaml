@@ -58,7 +58,7 @@ projects:
 - name: Chatbot
   logo: /images/sections/projects/chatbot.png
   role: Owner
-  timeline: "Aug 2024 - Present"
+  timeline: "Aug 2024 - Sept 2024"
   # repo: https://github.com/hossainemruz/toha
   summary: A conversational chatbot using Meta-Llama-3-8B as base model, integrated with Langchain and LlamaIndex for enhanced data retrieval and interaction.
   tags: ["nlp","chatbot"]
