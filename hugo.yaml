@@ -2,7 +2,7 @@ baseURL: https://burna680.github.io
 
 languageCode: es
 title: "Lucas Burna's portfolio"
-
+#
 # Use Hugo modules to add theme
 module:
   imports:
