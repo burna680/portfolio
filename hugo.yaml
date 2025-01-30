@@ -1,4 +1,4 @@
-baseURL: https://burna680.github.io/
+baseURL: https://burna680.github.io/portfolio
 
 languageCode: es
 title: "Lucas Burna's portfolio"
@@ -72,7 +72,7 @@ params:
     favicon: /images/site/logo.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/burna680/burna680.github.io
+  gitRepo: https://github.com/burna680/portfolio
   # Default branch of your Git repo
   gitBranch: main
 

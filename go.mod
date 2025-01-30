@@ -1,4 +1,4 @@
-module github.com/burna680/burna680.github.io
+module github.com/burna680/portfolio
 
 go 1.21
 
