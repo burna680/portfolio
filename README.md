@@ -4,7 +4,7 @@ Welcome to my portfolio site! This project showcases my work and skills as a Mac
 
 ## Live Site
 
-Check out the live site [here](https://burna680.github.io/portfolio).
+Check out the live site [here](https://burna680.netlify.app/).
 
 ## Contact
 
