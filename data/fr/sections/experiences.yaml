@@ -25,10 +25,10 @@ experiences:
     start: Jan 2025
     end: Present
     responsibilities:
-    - J'ai dirigé la productisation des modèles de ML en implémentant les meilleures pratiques de MLOps, améliorant la performance, la fiabilité et la scalabilité des modèles pour les cas d'usage des clients.
-    - J'ai fait le lien entre les rôles de Data Science et d'Ingénierie en gérant l'optimisation du cycle de vie des modèles, l'orchestration de l'infrastructure et la gouvernance des données, garantissant une intégration fluide.
-    - J'ai favorisé l'innovation en recherchant et en déployant des technologies émergentes, contribuant au partage des connaissances internes et aux pratiques de pointe en IA/ML dans l'industrie.
-
+    - Mise en production de modèles de ML en appliquant les meilleures pratiques MLOps pour améliorer performance, fiabilité et scalabilité.
+    - Gestion du cycle de vie des modèles, orchestration des infrastructures et gouvernance des données pour une intégration fluide.
+    - Recherche et déploiement de technologies émergentes, contribuant aux meilleures pratiques IA/ML.
+    
 - company:
     name: Scale AI
     url: "https://scale.com/"
@@ -43,9 +43,8 @@ experiences:
     start: Feb 2023
     end: Jun 2024
     responsibilities:
-    - J'ai amélioré l'efficacité du chatbot en fournissant un code de haute qualité pour les systèmes d'IA conversationnelle, ce qui a conduit à une augmentation de la satisfaction des utilisateurs et à une meilleure cohérence des réponses.
-    - J'ai amélioré la qualité des ensembles de données en collaborant avec des équipes interfonctionnelles pour créer des ensembles de données de haute qualité, augmentant ainsi la précision des modèles.
-
+    - Amélioration de l’efficacité des chatbots avec un code de qualité pour IA conversationnelle, augmentant la satisfaction et la cohérence des réponses.
+    - Collaboration inter-équipes pour améliorer la qualité des datasets et la précision des modèles.
 - company:
     name: Zowl Labs
     url: "https://www.zowllabs.com/"
@@ -62,6 +61,6 @@ experiences:
     end: Feb 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - J'ai accéléré le flux de travail du projet en supervisant l'ensemble du cycle de vie des modèles de vision par ordinateur, de la collecte des données au déploiement.
-    - J'ai optimisé les performances du modèle en concevant et en mettant en œuvre un prototype physique pour une configuration expérimentale de vision par ordinateur, garantissant des conditions d'évaluation précises.
-    - J'ai fourni des informations de recherche de pointe chaque mois, conduisant à une innovation continue et à de meilleurs résultats pour le projet.
+    - Supervision du cycle de vie des modèles de vision par ordinateur, optimisant la collecte des données et le déploiement.
+    - Conception d’un prototype physique pour tester et optimiser la performance des modèles de vision par ordinateur.
+    - Partage d’analyses de recherche mensuelles, favorisant l’innovation continue
