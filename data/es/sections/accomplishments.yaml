@@ -11,6 +11,14 @@ section:
 
 # Your accomplishments
 accomplishments:
+- name:  Databricks Certified Associate Machine Learning
+  timeline: "Marzo 2025"
+  organization:
+    name: Databricks 
+    url: https://www.databricks.com/
+  courseOverview: El examen Databricks Certified Machine Learning Associate evalúa la capacidad para realizar tareas básicas de aprendizaje automático de extremo a extremo en Databricks, incluyendo la exploración de datos, la ingeniería de características, el entrenamiento, ajuste, evaluación y despliegue de modelos, así como el uso de herramientas como AutoML, Unity Catalog y MLflow.
+  certificateURL: "https://api.accredible.com/v1/auth/invite?code=899615dd18073fd39010&credential_id=17b8e0d8-6a93-4b24-9fb6-dbfbe33659a0&url=https%3A%2F%2Fcredentials.databricks.com%2F17b8e0d8-6a93-4b24-9fb6-dbfbe33659a0&ident=92f8a906-ba81-4450-b84d-db40afc32dfc"
+
 - name: Effective MLOps - Model Development
   timeline: "Nov 2024"
   organization:
